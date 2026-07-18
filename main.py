@@ -21,7 +21,7 @@ if today_tuple in birthdays_dict:
         content.replace("[Name]",bithday_person["name"])
     with smtplib.SMTP("smtp.gmail.com",587) as connection:
         connection.starttls()
-        connection.login("smohammadtalha0@gmail.com","")
+        connection.login("smohammadtalha0@gmail.com","umya zowy avqj fnwv")
         connection.sendmail(
             to_addrs=bithday_person["email"],
             from_addr="smohammadtalha0@gmail.com",
